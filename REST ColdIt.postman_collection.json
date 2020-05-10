@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "6c2722b7-ee4f-4272-95cc-bd5f5ba35e7f",
+		"name": "REST ColdIt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:51044/api/productos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Producto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:51044/api/productos/da2fd609-d754-4feb-8acd-c4f9ff13ba96",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"productos",
+						"da2fd609-d754-4feb-8acd-c4f9ff13ba96"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Producto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigo\": \"006\",\r\n    \"valor\": 250000,\r\n    \"nombre\": \"FIFA 20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:51044/api/productos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Producto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:51044/api/productos/5b3621c0-7b12-4e80-9c8b-3398cba7ee05",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"productos",
+						"5b3621c0-7b12-4e80-9c8b-3398cba7ee05"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Calcular",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cliente\": \"Carlos Meriño\",\r\n    \"items\": [\r\n    \t{\r\n\t    \t\"cartidad\": 2,\r\n\t    \t\"producto\":\r\n\t\t\t{\r\n\t\t        \"codigo\": \"001\",\r\n\t\t        \"valor\": 30000,\r\n\t\t        \"nombre\": \"Memoria\"\r\n\t\t    }\r\n\t    },\r\n\t    {\r\n\t    \t\"cartidad\": 3,\r\n\t    \t\"producto\":\r\n\t\t\t{\r\n\t\t        \"codigo\": \"002\",\r\n\t\t        \"valor\": 1500000,\r\n\t\t        \"nombre\": \"Portatil\"\r\n\t\t    }\r\n\t    }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:51044/api/productos/calcular",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"productos",
+						"calcular"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
