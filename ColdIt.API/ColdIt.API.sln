@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColdIt.API", "ColdIt.API.csproj", "{B1B4EBCE-AB80-4CB0-96C4-167A909AAD4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B4EBCE-AB80-4CB0-96C4-167A909AAD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B4EBCE-AB80-4CB0-96C4-167A909AAD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B4EBCE-AB80-4CB0-96C4-167A909AAD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B4EBCE-AB80-4CB0-96C4-167A909AAD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28FB8EEE-46B7-42D1-8314-B49755028631}
+	EndGlobalSection
+EndGlobal
