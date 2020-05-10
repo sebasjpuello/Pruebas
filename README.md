@@ -1,3 +1,4 @@
 # Pruebas
-Vista demasiado basica.
-API Web ASP.NET funcional con todos los CRUD.
+Frontend - Html, JavaScript, JQuery, Bootstrap
+API Rest - ASP.Net Core 3.1, Entity Framework, SQL Server.
+REST ColdIt.postman_collection para puebas API Rest desde Postman.
